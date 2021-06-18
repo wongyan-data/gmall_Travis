@@ -36,7 +36,7 @@ public class LoggerController {
 //        shi jian ri zhi
         kafkaTemplate.send ("gmall_event_bak",mockLog);
     }
-    return mockLog;
+    return "success";
 }
 
 }
